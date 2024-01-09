@@ -1,0 +1,23 @@
+@keyframes networkIcons {
+    0%{ transform: translateY(0)}
+    25%{ transform: translateY(-25%)}
+    50%{ transform: translateY(0)}
+    75%{ transform: translateY(25%)}
+    100%{ transform: translateY(0)}
+}
+
+.imgStyle{
+    height: 200px;
+}
+.footerStyle{
+    height: 100px;;
+    .footerIcon{
+        text-decoration: none;
+        color: black;
+        font-size: 3rem;
+        animation: networkIcons infinite 10s ease;
+        &:hover{
+            color: rgb(50, 50, 63);
+        }
+    }
+}
