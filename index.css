@@ -44,8 +44,12 @@
 }
 
 @media (max-width: 768px) {
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     h2 {
-        font-size: 1.25rem;
+        font-size: 1.35rem;
     }
     
 }
