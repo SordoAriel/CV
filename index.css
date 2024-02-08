@@ -11,6 +11,7 @@
     50%{ transform: scale(0)}
     100%{ transform: scale(1)}
 }
+
 .bgColor{
     background: linear-gradient(90deg, rgba(48,47,60,1) 0%, rgba(76,76,120,1) 100%);
     .headerStyle{
@@ -19,9 +20,18 @@
             height: 200px;
         }
     }
-    .clearCardStyle{
-        background: linear-gradient(90deg, rgba(188,186,204,1) 0%, rgba(218,222,224,1) 100%);
-    }        
+    .row{
+        margin: 0;
+        padding: 0;
+    }
+    .row>*{
+        margin: 0;
+        padding: 0;
+        .clearCardStyle{
+            background: linear-gradient(90deg, rgba(188,186,204,1) 0%, rgba(218,222,224,1) 100%);
+        }    
+    }
+        
     .footerStyle{
         height: 150px;;
         .footerIcon{
