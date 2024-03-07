@@ -1,4 +1,4 @@
-import { Project, RedirectBtn } from "../components/index.js"
+import { Project } from "../components/index.js"
 
 function Projects () {
     const projects = [
@@ -94,7 +94,7 @@ function Projects () {
                 {projects.map(({img, title, description, techs, redirectionLinks}) => 
                     <Project img={img} title={title} description={description} techs={techs} redirectionLinks={redirectionLinks} />
                 )}
-            </div>  
+            </div>
         </div>
     )
 }
