@@ -3,7 +3,7 @@ import { Project, RedirectBtn } from "../components/index.js"
 function Projects () {
     const projects = [
         {
-            img:'/src/assets/DWCourseImg.png',
+            img:'assets/DWCourseImg.png',
             title: 'Front-End - Landing Site',
             description: `Este es el Proyecto Final del Curso de Desarrollo Web de CoderHouse, donde aprendimos a realizar un sitio web estático que fuera responsive.
             Realizamos un primer maquetado con Balsamiq
@@ -25,7 +25,7 @@ function Projects () {
             }
         },
         {
-            img: 'src/assets/ReactCourseImg.png',
+            img: 'assets/ReactCourseImg.png',
             title: 'Front-End - Ecommerce',
             description: `Este proyecto fue creado en el marco del curso de React.JS que realicé en CoderHouse.
             El objetivo principal era aprender y aplicar los fundamentos de React.
@@ -47,7 +47,7 @@ function Projects () {
             }
         },
         {
-            img: 'src/assets/BackEndCourseImg.png',
+            img: 'assets/BackEndCourseImg.png',
             title: 'Back-End - Ecommerce',
             description: `Este es el proyecto desarrollado a lo largo del Curso de Desarrollo Backend de CoderHouse.
             Utilizamos el entorno de NodeJS, y para la construcción del servidor, aplicamos el framework de Express.JS.
@@ -69,7 +69,7 @@ function Projects () {
             }
         },
         {
-            img: 'src/assets/PortfolioImg.png',
+            img: 'assets/PortfolioImg.png',
             title: 'Portfolio',
             description: `En este sitio en el que encuentran, intenté ir un poco más allá de lo aprendido a lo largo del curso.
             Utilicé React, pero en esta ocasión lo ejecuté a través de Vite.
