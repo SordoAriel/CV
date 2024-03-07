@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'code': "url('public/sl_031420_28950_10.jpg')",
-      'computer': "url('public/laptop-removebg-preview.png')"
+      'code': "url('./assets/sl_031420_28950_10.jpg')",
+      'computer': "url('./assets/laptop-removebg-preview.png')"
     },
     extend: {
       colors: {
