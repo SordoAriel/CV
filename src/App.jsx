@@ -6,7 +6,7 @@ import { Home, Projects} from './pages'
 
 function App() {
   return (
-    <div className='text-white bg-code text-font'>
+    <div className='text-white bg-code'>
       <BrowserRouter>
         <NavBar />
         <Routes>

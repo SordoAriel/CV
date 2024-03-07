@@ -8,7 +8,7 @@ function Home (props) {
                     <span className='animate-pulse'>_</span>
                 </div>
                 <div className='pt-44 pl-20 pr-20'>
-                    <h2 className='text-2xl font-bold'>Acerca de mi:</h2>
+                    <h2 className='text-2xl font-bold pb-5'>Acerca de mi:</h2>
                     <div className='flex flex-col justify-center items-center gap-8'>
                         <div className='w-3/4 p-6 bg-sky-900 bg-opacity-40 rounded border'>
                             <h3 className='text-xl font-bold'>Donde estoy parado:</h3>
