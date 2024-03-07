@@ -47,7 +47,7 @@ function Projects () {
             }
         },
         {
-            img: 'assets/BackEndCourseImg.png',
+            img: 'assets/pexels-tuur-tisseghem-812264-removebg-preview.png',
             title: 'Back-End - Ecommerce',
             description: `Este es el proyecto desarrollado a lo largo del Curso de Desarrollo Backend de CoderHouse.
             Utilizamos el entorno de NodeJS, y para la construcción del servidor, aplicamos el framework de Express.JS.
