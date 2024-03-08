@@ -92,9 +92,7 @@ function Projects () {
             }
         }
     ]
-                
-    
-
+          
     return (
         <div className='px-20 py-10'>
             <h1 className='text-2xl font-bold pb-10'>Mis proyectos:</h1>

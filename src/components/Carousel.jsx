@@ -15,9 +15,9 @@ export default function Carousel({items}) {
     className: 'vertical-center slider'
   };
   return (
-    <Slider {...settings} className='flex justify-center items-center'>
+    <Slider {...settings} className='flex justify-center items-center z-10'>
       {items.map(({img, title, description, techs, redirectionLinks}) => (
-        <div key={title} className='w-full flex gap-3 justify-center items-center'>
+        <div key={title} className='w-full flex gap-3 justify-center items-center z-4 '>
           <Project img={img} title={title} description={description} techs={techs} redirectionLinks={redirectionLinks} />
         </div>
         ))}
