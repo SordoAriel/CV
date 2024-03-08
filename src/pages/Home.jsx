@@ -1,6 +1,9 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChessRook } from '@fortawesome/free-solid-svg-icons'
+
 function Home (props) {
     return <div className='bg-computer bg-no-repeat bg-top'>
-                <div className='p-14 text-center text-lg leading-10'>               
+                <div className='p-14 text-center text-lg leading-10 font-bold'>               
                     <h1>¡Hola!</h1>
                     <h2>Mi nombre es Ariel Sordo</h2>
                     <h2>Soy Desarrollador Web</h2> 
@@ -27,24 +30,25 @@ function Home (props) {
                             <p>Desde el año 2019 trabajo como Psicólogo Clínico en Sistema Público de Salud de la Provincia de Buenos Aires. Allí desarrollé múltiples habilidades blandas, como la capacidad para trabajar en equipo, comunicarme adecuadamente, ser empático.</p>
                             <p>Entre el año 2010 y 2017 me desempeñé como empleado en un comercio familiar, donde realicé tareas de atención al público, facturación, inventariado y planificación de compras, entre otros.</p>
                         </div>
-                        <div className='flex justify-evenly gap-8 mb-8'>
-                            <div className='p-6 bg-sky-900 bg-opacity-40 rounded border'>
-                                <h3>Lenguajes (por ahora):</h3>
+                        <div className='w-3/4 flex justify-around gap-8 mb-8'>
+                            <div className='w-2/6 p-6 bg-sky-900 bg-opacity-40 rounded border'>
+                                <h3 className='text-xl font-bold'>Lenguajes:</h3>
                                     <ul>
-                                        <li>HTML5</li>
-                                        <li>CSS3</li>
-                                        <li>JavaScript</li>
-                                        <li>JSX</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> HTML5</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> CSS3</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> JavaScript</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> JSX</li>
                                     </ul>
                             </div>
-                            <div className='p-6 bg-sky-900 bg-opacity-40 rounded border'>
-                                <h3>Tecnologías:</h3>
+                            <div className='w-2/6 p-6 bg-sky-900 bg-opacity-40 rounded border'>
+                                <h3 className='text-xl font-bold'>Tecnologías:</h3>
                                     <ul>
-                                        <li>Node.JS</li>
-                                        <li>Express.JS</li>
-                                        <li>React</li>
-                                        <li>Bootstrap</li>
-                                        <li>Git & GitHub</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> Node.JS</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> Express.JS</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> React</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> Bootstrap</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> Git & GitHub</li>
+                                        <li><FontAwesomeIcon icon={faChessRook} /> WebSocket</li>
                                     </ul>
                             </div>
                         </div>

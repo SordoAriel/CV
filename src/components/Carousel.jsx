@@ -1,34 +1,26 @@
-import React from "react";
-import Slider from "react-slick";
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { Project } from './index.js' 
 
-export default function SimpleSlider() {
-  var settings = {
+export default function Carousel({items}) {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: false,
+    className: 'vertical-center slider'
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
+    <Slider {...settings} className='flex justify-center items-center'>
+      {items.map(({img, title, description, techs, redirectionLinks}) => (
+        <div key={title} className='w-full flex gap-3 justify-center items-center'>
+          <Project img={img} title={title} description={description} techs={techs} redirectionLinks={redirectionLinks} />
+        </div>
+        ))}
     </Slider>
   );
 }

@@ -7,7 +7,7 @@ export default {
   theme: {
     backgroundImage: {
       'code': "url('./assets/sl_031420_28950_10.jpg')",
-      'computer': "url('./assets/laptop-removebg-preview.png')"
+      'computer': "url('./assets/laptop-removebg-preview.png')",
     },
     extend: {
       colors: {

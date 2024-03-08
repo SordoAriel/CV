@@ -1,9 +1,11 @@
 import { Project } from "../components/index.js"
+import DWCourseImg from '../assets/DWCourseImg.png'
+import Carousel from "../components/Carousel.jsx"
 
 function Projects () {
     const projects = [
         {
-            img:'src/assets/DWCourseImg.png',
+            img: DWCourseImg,
             title: 'Front-End - Sitio Web',
             description: `Este es el Proyecto Final del Curso de Desarrollo Web de CoderHouse, donde aprendimos a realizar un sitio web estático.
             Era requisito que tuviese al menos 4 páginas, y que fuera responsive.
@@ -48,7 +50,7 @@ function Projects () {
             }
         },
         {
-            img: 'src/assets/BackEndCourseImg.png',
+            img: 'src/assets/dbImg.png',
             title: 'Back-End - Ecommerce',
             description: `Este es el proyecto desarrollado a lo largo del Curso de Desarrollo Backend de CoderHouse.
             Utilizamos el entorno de NodeJS, y para la construcción del servidor, aplicamos el framework de Express.JS.
@@ -87,17 +89,15 @@ function Projects () {
             }
         }
     ]
+                
+    
 
     return (
         <div className='px-20 py-10'>
             <h1 className='text-2xl font-bold pb-10'>Mis proyectos:</h1>
-            <div className='w-full flex flex-col gap-3 justify-center items-center'>
-                {projects.map(({img, title, description, techs, redirectionLinks}) => 
-                    <Project img={img} title={title} description={description} techs={techs} redirectionLinks={redirectionLinks} />
-                )}
-            </div>
+            <Carousel items={projects} />
         </div>
-    )
+    );
 }
 
-export default Projects
+export default Projects;
