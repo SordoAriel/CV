@@ -1,5 +1,8 @@
-import { Project } from "../components/index.js"
 import DWCourseImg from '../assets/DWCourseImg.png'
+import ReactCourseImg from '../assets/ReactCourseImg.png'
+import PortfolioImg from '../assets/PortfolioImg.png'
+import dbImg from '../assets/dbImg.png'
+
 import Carousel from "../components/Carousel.jsx"
 
 function Projects () {
@@ -28,7 +31,7 @@ function Projects () {
             }
         },
         {
-            img: 'src/assets/ReactCourseImg.png',
+            img: ReactCourseImg,
             title: 'Front-End - Ecommerce',
             description: `Este proyecto fue creado en el marco del curso de React.JS que realicé en CoderHouse.
             El objetivo principal era aprender y aplicar los fundamentos de React.
@@ -50,7 +53,7 @@ function Projects () {
             }
         },
         {
-            img: 'src/assets/dbImg.png',
+            img: dbImg,
             title: 'Back-End - Ecommerce',
             description: `Este es el proyecto desarrollado a lo largo del Curso de Desarrollo Backend de CoderHouse.
             Utilizamos el entorno de NodeJS, y para la construcción del servidor, aplicamos el framework de Express.JS.
@@ -72,7 +75,7 @@ function Projects () {
             }
         },
         {
-            img: 'src/assets/PortfolioImg.png',
+            img: PortfolioImg,
             title: 'Portfolio',
             description: `En este sitio en el que encuentran, intenté ir un poco más allá de lo aprendido a lo largo del curso.
             Utilicé React, pero en esta ocasión lo ejecuté a través de Vite.
