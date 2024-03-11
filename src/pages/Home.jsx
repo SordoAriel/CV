@@ -1,10 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChessRook } from '@fortawesome/free-solid-svg-icons'
+import cvImg from '../assets/foto_cv.jpg'
 
 function Home () {
     return <div className='bg-cellPhone xl:bg-computer bg-no-repeat bg-top'>
                 <div className='pt-20 xl:p-14 text-center text-base xl:text-lg leading-10 font-bold'>               
-                    <img src='src/assets/foto_cv.jpg' className='w-3/5 sm:w-1/5 lg:w-1/6 mx-auto xl:ml-8 rounded-full lg:absolute lg:right-14 lg:top-24'/>
+                    <img src={cvImg} className='w-3/5 sm:w-1/5 lg:w-1/6 mx-auto xl:ml-8 rounded-full lg:absolute lg:right-14 lg:top-24'/>
                     <h1>¡Hola!</h1>
                     <h2>Mi nombre es Ariel Sordo</h2>
                     <h2>Soy Desarrollador Web</h2> 

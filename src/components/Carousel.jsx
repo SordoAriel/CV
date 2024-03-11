@@ -12,6 +12,7 @@ export default function Carousel({items}) {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
+    adaptiveHeight: true,
     className: 'vertical-center slider'
   };
   return (

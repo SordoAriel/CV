@@ -2,7 +2,6 @@ import DWCourseImg from '../assets/DWCourseImg.png'
 import ReactCourseImg from '../assets/ReactCourseImg.png'
 import PortfolioImg from '../assets/PortfolioImg.png'
 import dbImg from '../assets/dbImg.png'
-
 import Carousel from "../components/Carousel.jsx"
 
 function Projects () {
