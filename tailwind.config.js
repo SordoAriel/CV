@@ -8,6 +8,7 @@ export default {
     backgroundImage: {
       'code': "url('./assets/sl_031420_28950_10.jpg')",
       'computer': "url('./assets/laptop-removebg-preview.png')",
+      'cellPhone': "url('./assets/cellphoneImg.png')"
     },
     extend: {
       colors: {
