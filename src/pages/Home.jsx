@@ -12,7 +12,7 @@ function Home () {
                     <h2 className='inline'>¡Bienvenidos a mi portfolio!</h2>
                     <span className='animate-pulse'>_</span>
                 </div>
-                <div className='pt-96 xl:pt-52 px-6 xl:px-20'>
+                <div className='pt-72 xl:pt-52 px-6 xl:px-20'>
                     <h2 className='text-xl xl:text-2xl font-bold pb-5'>Acerca de mi:</h2>
                     <div className='flex flex-col justify-center items-center gap-8'>
                         <div className='xl:w-3/4 p-6 bg-sky-900 bg-opacity-40 rounded border'>
