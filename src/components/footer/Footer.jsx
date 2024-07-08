@@ -3,7 +3,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Footer () {
     return (
-        <div className='xl:h-10 p-3 xl:p-0 flex flex-col xl:flex-row justify-between items-center text-xs text-center'>
+        <div className='xl:h-10 px-3 py-5 lg:py-10 flex flex-col xl:flex-row justify-between items-center text-xs text-center'>
             <div className='pb-2 xl:pb-0 gap-3 xl:px-20'>
                 <span className=''>Diseño y Desarrollo: Ariel Alejandro Sordo, Marzo de 2024</span>
                 <br></br>

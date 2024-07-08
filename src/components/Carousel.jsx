@@ -6,13 +6,11 @@ import { Project } from './index.js'
 
 export default function Carousel({items}) {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
-    adaptiveHeight: true,
     className: 'vertical-center slider'
   };
   return (
