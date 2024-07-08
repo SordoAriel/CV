@@ -7,7 +7,7 @@ import cellphoneImg from '../assets/cellphoneImg.png'
 function Home () {
     return <div>
                 <div className='relative pt-5'>               
-                    <div className='flex justify-center p-5 lg:justify-end lg:absolute lg:right-14 lg:top-24 xl:right-20 2xl:right-52'>
+                    <div className='flex justify-center p-5 lg:justify-end lg:absolute lg:right-14 lg:top-24 xl:right-16 2xl:right-48'>
                         <img src={cvImg} className='w-3/5 sm:w-2/5 md:w-1/4 lg:w-1/5 xl:w-1/3 rounded-full'/>
                     </div>
                     <div className='relative flex justify-center items-center'>
